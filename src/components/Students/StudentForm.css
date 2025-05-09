@@ -1,0 +1,72 @@
+.student-form-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .student-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .student-form .form-control {
+    margin-bottom: 20px;
+  }
+  
+  .student-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .student-form input[type="text"],
+  .student-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Important for width calculation */
+    font-size: 1rem;
+  }
+  
+  .student-form .error {
+    color: #e74c3c; /* Red color for errors */
+    font-size: 0.875em;
+    margin-top: 5px;
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745; /* Green color for submit */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .student-form-container {
+      margin: 20px 15px; /* More margin for smaller screens */
+      padding: 20px;
+    }
+  }

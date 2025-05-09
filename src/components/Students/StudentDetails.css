@@ -1,0 +1,104 @@
+.student-details-container {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f4f7f6; /* Light background for the container */
+    border-radius: 8px;
+  }
+  
+  .student-details-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+  .details-card {
+    background-color: #ffffff; /* White card background */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+  }
+  
+  .details-card h3 {
+    color: #007bff; /* Primary color for name */
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+  }
+  
+  .details-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .details-card p strong {
+    color: #333;
+  }
+  
+  .grades-section {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px dashed #ccc;
+  }
+  
+  .grades-section h4 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+  
+  .grades-section ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .grades-section li {
+    font-size: 1rem;
+    color: #444;
+    padding: 5px 0;
+  }
+  
+  .loading-message, .error-message, .info-message {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px;
+  }
+  .error-message {
+      color: red;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 18px;
+    background-color: #6c757d; /* Secondary button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .back-link:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .student-details-container {
+      margin: 20px 15px;
+      padding: 15px;
+    }
+    .details-card {
+      padding: 20px;
+    }
+    .details-card h3 {
+      font-size: 1.6rem;
+    }
+    .details-card p {
+      font-size: 1rem;
+    }
+  }
